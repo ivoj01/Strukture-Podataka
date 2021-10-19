@@ -40,6 +40,9 @@ int main(int argc, char* argv[])
 
 	studenti = alocirajIUcitajStudenteIzDatoteke(imeDatoteke, brojStudenata);
 
+	if (!studenti)
+		return -1;
+
 	ispisStudenata(studenti, brojStudenata);
 
 	free(studenti);
@@ -72,7 +75,7 @@ int izracunajBrojRedakaDatoteke(char* imeDatoteke)
 
 student* alocirajIUcitajStudenteIzDatoteke(char* imeDatoteke, int brojStudenata)
 {
-	int brojac = 0;
+	int i = 0;
 	FILE* datoteka = NULL;
 	student* studenti = NULL;
 
@@ -86,11 +89,8 @@ student* alocirajIUcitajStudenteIzDatoteke(char* imeDatoteke, int brojStudenata)
 		return NULL;
 	}
 
-	for (int i = 0; i < brojStudenata; i++)
-	{
-		fscanf(datoteka, " %s %s %lf", studenti[brojac].ime, studenti[brojac].prezime, &studenti[brojac].bodovi);
-		brojac++;
-	}
+	for (i = 0; i < brojStudenata; i++)
+		fscanf(datoteka, " %s %s %lf", studenti[i].ime, studenti[i].prezime, &studenti[i].bodovi);
 
 	fclose(datoteka);
 	return studenti;
