@@ -1,0 +1,3 @@
+﻿  Zadatak7.c
+C:\Users\Admin\Desktop\Strukture-Podataka\Zadatak7\Zadatak7.c(208,38): warning C4047: '=': 'Position' differs in levels of indirection from 'Position *'
+  Zadatak7.vcxproj -> C:\Users\Admin\Desktop\Strukture-Podataka\Zadatak7\Debug\Zadatak7.exe
