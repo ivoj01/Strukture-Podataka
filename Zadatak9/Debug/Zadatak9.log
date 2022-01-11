@@ -1,0 +1,5 @@
+﻿  Zadatak9.c
+C:\Users\Admin\Desktop\Strukture-Podataka\Zadatak9\Zadatak9.c(55,4): warning C4566: character represented by universal-character-name '\u010D' cannot be represented in the current code page (1252)
+C:\Users\Admin\Desktop\Strukture-Podataka\Zadatak9\Zadatak9.c(183,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Admin\Desktop\Strukture-Podataka\Zadatak9\Zadatak9.c(187,15): warning C4013: 'isdigit' undefined; assuming extern returning int
+  Zadatak9.vcxproj -> C:\Users\Admin\Desktop\Strukture-Podataka\Zadatak9\Debug\Zadatak9.exe
