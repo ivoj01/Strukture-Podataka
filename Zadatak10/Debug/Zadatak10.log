@@ -1,0 +1,12 @@
+﻿  Zadatak10.c
+C:\Users\Admin\Desktop\Strukture-Podataka\Zadatak10\Zadatak10.c(64,58): warning C4047: 'function': 'char *' differs in levels of indirection from 'char (*)[1024]'
+C:\Users\Admin\Desktop\Strukture-Podataka\Zadatak10\Zadatak10.c(64,48): warning C4024: 'ReadFromFirstFile': different types for formal and actual parameter 3
+C:\Users\Admin\Desktop\Strukture-Podataka\Zadatak10\Zadatak10.c(64,73): warning C4047: 'function': 'char *' differs in levels of indirection from 'char (*)[1024]'
+C:\Users\Admin\Desktop\Strukture-Podataka\Zadatak10\Zadatak10.c(64,60): warning C4024: 'ReadFromFirstFile': different types for formal and actual parameter 4
+C:\Users\Admin\Desktop\Strukture-Podataka\Zadatak10\Zadatak10.c(51,1): warning C4047: 'initializing': 'char *' differs in levels of indirection from 'char (*)[1024]'
+C:\Users\Admin\Desktop\Strukture-Podataka\Zadatak10\Zadatak10.c(52,1): warning C4047: 'initializing': 'char *' differs in levels of indirection from 'char (*)[1024]'
+C:\Users\Admin\Desktop\Strukture-Podataka\Zadatak10\Zadatak10.c(124,11): warning C4013: 'strncat' undefined; assuming extern returning int
+C:\Users\Admin\Desktop\Strukture-Podataka\Zadatak10\Zadatak10.c(159,31): warning C4013: 'strcmp' undefined; assuming extern returning int
+C:\Users\Admin\Desktop\Strukture-Podataka\Zadatak10\Zadatak10.c(197,8): warning C4013: 'strcpy' undefined; assuming extern returning int
+C:\Users\Admin\Desktop\Strukture-Podataka\Zadatak10\Zadatak10.c(337,77): warning C4020: 'perror': too many actual parameters
+  Zadatak10.vcxproj -> C:\Users\Admin\Desktop\Strukture-Podataka\Zadatak10\Debug\Zadatak10.exe
